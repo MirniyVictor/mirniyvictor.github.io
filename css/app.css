@@ -155,7 +155,7 @@ summary {
   fill: currentColor;
   font-size: 0;
 }
-.svg-icon__link {
+.svg-icon__f {
   vertical-align: top;
   fill: inherit;
   width: inherit;
@@ -348,6 +348,9 @@ body {
 }
 .section .title a:hover {
   text-decoration: none;
+}
+.section .body .link {
+  margin: 0;
 }
 .section .body .link a {
   color: #0092f9;
