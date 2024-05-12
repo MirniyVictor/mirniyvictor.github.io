@@ -352,12 +352,12 @@ body {
 .section .body .link {
   margin: 0;
 }
-.section .body .link a {
+.section .body a {
   color: #0092f9;
   text-decoration: none;
   font-size: 14px;
 }
-.section .body .link a:hover {
+.section .body a:hover {
   text-decoration: underline;
 }
 .section .body .description {
