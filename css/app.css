@@ -298,6 +298,11 @@ template,
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
 }
+.header .center .logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .header .navigation {
   display: flex;
   justify-content: center;
