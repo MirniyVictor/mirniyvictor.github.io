@@ -1,0 +1,425 @@
+/* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+  margin: 0;
+}
+main {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+a {
+  background-color: transparent;
+}
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+button,
+input {
+/* 1 */
+  overflow: visible;
+}
+button,
+select {
+/* 1 */
+  text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+details {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+.main-svg-sprite {
+  display: none;
+}
+.svg-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  font-size: 0;
+}
+.svg-icon__link {
+  vertical-align: top;
+  fill: inherit;
+  width: inherit;
+  height: inherit;
+}
+* {
+  min-width: 0;
+  min-height: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
+svg:not(:root) {
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+blockquote {
+  padding: 15px;
+  padding-left: 20px;
+  border-left: 5px solid #6fbc95;
+  background-color: rgba(111,188,149,0.03);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/**
+ * Add the correct display in IE 10.
+ */
+.hidden,
+template,
+[hidden] {
+  display: none !important;
+}
+.theme-color {
+  color: #6fbc95;
+}
+/**
+ * The CSS class screen-reader-text
+ *
+ * @link https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/
+ */
+.visuallyhidden,
+.screen-reader-text,
+.sr-only {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+  -webkit-overflow-scrolling: touch;
+}
+.visuallyhidden:active,
+.screen-reader-text:active,
+.sr-only:active,
+.visuallyhidden:focus,
+.screen-reader-text:focus,
+.sr-only:focus {
+  background-color: #eee;
+  clip: auto !important;
+  -webkit-clip-path: none;
+          clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000 /* Above WP toolbar. */;
+}
+.footer {
+  flex: none;
+}
+.footer .section {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer .section a {
+  color: #1a1c22;
+  text-decoration: none;
+  font-size: 12px;
+}
+.footer .section a:hover {
+  text-decoration: underline;
+}
+.header {
+  padding: 10px;
+  box-sizing: border-box;
+  flex: none;
+}
+.header .section {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.header .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .center .logo {
+  min-width: 100px;
+  min-height: 100px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border-radius: 50%;
+  border: 2px #0092f9 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.header .navigation {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header .navigation li {
+  padding: 0 10px;
+}
+.header .navigation li a {
+  color: #1a1c22;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1;
+}
+.header .navigation li a:hover {
+  text-decoration: underline;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.section {
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px dotted #eee;
+}
+.section .category {
+  color: #1a1c22;
+  font-size: 12px;
+}
+.section .title a {
+  color: #333;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 500;
+}
+.section .title a:hover {
+  text-decoration: none;
+}
+.section .body .link a {
+  color: #0092f9;
+  text-decoration: none;
+  font-size: 14px;
+}
+.section .body .link a:hover {
+  text-decoration: underline;
+}
+.section .body .description {
+  font-size: 13px;
+  color: #737578;
+}
+.section .body .date {
+  font-size: 12px;
+  color: #a7a5a5;
+}
+.page-scroller {
+  pointer-events: none;
+  opacity: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: fixed;
+  z-index: 1050;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(111,188,149,0.1);
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: opacity 0.16s linear;
+}
+.page-scroller__icon {
+  width: 24px;
+  height: 24px;
+  fill: #666;
+  transition: transform 0.25s ease-in-out;
+}
+.page-scroller:hover,
+.page-scroller:focus {
+  background-color: rgba(111,188,149,0.12);
+}
+.page-scroller:active {
+  background-color: rgba(111,188,149,0.14);
+}
+.page-scroller--in-memory .page-scroller__icon {
+  transform: rotate(180deg);
+}
+.page-scroller--in-memory,
+.page-scroller--visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+@-webkit-keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
