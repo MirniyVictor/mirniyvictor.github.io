@@ -427,6 +427,16 @@ body {
     color: #fff;
     margin-right: 5px;
 }
+
+#res_task {
+    display: inline-block;
+    background: #e21869;
+    padding: 3px 7px 4px;
+    border-radius: 7px;
+    line-height: 1;
+    color: #fff;
+    margin-right: 5px;
+}
 @-webkit-keyframes spinner {
   from {
     transform: rotate(0deg);
