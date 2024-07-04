@@ -417,6 +417,16 @@ body {
   opacity: 1;
   pointer-events: auto;
 }
+
+#res {
+    display: inline-block;
+    background: #0092f9;
+    padding: 3px 7px 4px;
+    border-radius: 7px;
+    line-height: 1;
+    color: #fff;
+    margin-right: 5px;
+}
 @-webkit-keyframes spinner {
   from {
     transform: rotate(0deg);
