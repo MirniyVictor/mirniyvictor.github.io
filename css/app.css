@@ -368,6 +368,8 @@ body {
 .section .body .description {
   font-size: 13px;
   color: #737578;
+  line-height: 1;
+  margin: 3px 0;
 }
 .section .body .date {
   font-size: 12px;
